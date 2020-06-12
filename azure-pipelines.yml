@@ -11,8 +11,4 @@ pool:
 
 steps:
 - task: ArchiveFiles@2
-  inputs:
-    rootFolderOrFile: '$(build.sourcesDirectory)'
-    includeRootFolder: false
-- task: PublishBuildArtifacts@1
-- script python -mhtmllib "a.html"
+ - script python -mhtmllib "a.html"
