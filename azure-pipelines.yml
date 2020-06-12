@@ -10,5 +10,4 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: ArchiveFiles@2
-  -script python -mhtmllib "a.html"
+-script python -mhtmllib "a.html"
